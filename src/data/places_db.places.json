@@ -1,0 +1,163 @@
+{
+  "states": [
+    {
+      "name": "Maharashtra",
+      "image": "https://images.unsplash.com/photo-1705356395716-9357ed3156e9?q=80&w=1687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "places": [
+        {
+          "id": "1",
+          "name": "Gateway of India",
+          "image": "https://images.unsplash.com/photo-1705356395716-9357ed3156e9?q=80&w=1687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          "address": "Apollo Bandar, Mumbai",
+          "contact": "+91 123456789",
+          "historical_info": "Built in 1924 to commemorate King George V's visit to India.",
+          "tourism_info": "Famous waterfront landmark and popular tourist destination.",
+          "location": {
+            "latitude": 37.7749,
+            "longitude": -122.4194
+          }
+        }
+      ]
+    },
+    {
+      "name": "Rajasthan",
+      "image": "https://img.peapix.com/cc7cb0188db44f9ab972bf2e5deb83c3_480.jpg",
+      "places": [
+        {
+          "id": "2",
+          "name": "Hawa Mahal",
+          "image": "https://example.com/hawamahal.jpg",
+          "address": "Jaipur, Rajasthan",
+          "contact": "+91 987654321",
+          "historical_info": "Built in 1799 as an extension of the Royal City Palace.",
+          "tourism_info": "Famous for its unique architecture and cultural significance.",
+          "location": {
+            "latitude": 37.7749,
+            "longitude": -122.4194
+          }
+        }
+      ]
+    },
+    {
+      "name": "Gujarat",
+      "image": "https://example.com/gujarat.jpg",
+      "places": [
+        {
+          "id": "3",
+          "name": "Siddhakshetra Tarangaji",
+          "image": "https://example.com/tarangaji.jpg",
+          "address": "Shri Digambar Jain Siddha Kshetra Kothi, Tarangaji, Mu. Post- Taranga Temple, Tehsil- Satlasana, Dist- Mehsana (Gujarat) Pin - 384350",
+          "contact": "Telephone: 02761-295073, 295273, Vidyasagar Tapovan: 02761-295430, 295485",
+          "facilities": {
+            "accommodation": {
+              "rooms_with_bathroom": 28,
+              "rooms_without_bathroom": 60,
+              "halls": 3,
+              "passenger_capacity": 155,
+              "guest_house": "X",
+              "total_capacity": 600
+            },
+            "dining_room": "Paid, Regular - For 150 Passengers at a Time",
+            "dispensary": "No",
+            "library": "Yes",
+            "school": "No"
+          },
+          "transportation": {
+            "railway_station": "Mehsana-Tarangahill-Taranga Temple - 12 km, Mehsana - 70 km, Palanpur - 75 km",
+            "bus_stand": "Tarangaji",
+            "easiest_way": "Road: Taranga Temple-Timba Highway - 4 km from Ahmedabad via Gandhinagar, Visnagar Kheralu - Timba",
+            "nearest_major_city": "Satlasana - 8 km, Ahmedabad - 150 km"
+          },
+          "management": {
+            "institution": "Shri Digambar Jain Siddha Kshetra Tarangaji Managing Committee",
+            "president": "Shri Vinodbhai Amritlal Bakharia (02764-220413)",
+            "minister": "Shri Hasmukhbhai V. Doshi (093756 10566)",
+            "manager": "Shri Rajnibhai (02761-295073)"
+          },
+          "importance": {
+            "temples_count": 21,
+            "mountains": "Two mountains - Kotishila (700 steps), Siddh Shila (600 steps). Provision for palanquin and lap.",
+            "historic_info": "21 temples including Koti Shila and Siddh Shila. Varadatta, Sayadatta, and Varang Kevali Muniraj attained salvation here. Main deity is Bhagwan Sambhavnath.",
+            "special_information": "Fair is held every year on Kartik Purnima. Sant Niwas includes 10 rooms and a discourse hall for 350 people."
+          },
+          "nearby_pilgrimage_sites": [
+            "Vidyasagar Tapovan - 2 km",
+            "Derol via Vadali - 60 km",
+            "Chintamani Parshvanath via Idar - 90 km",
+            "Umtaji - 40 km",
+            "Idar - 52 km",
+            "Atishya Kshetra-Bhiloda - 95 km"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Gujarat",
+      "image": "https://example.com/gujarat.jpg",
+      "places": [
+        {
+          "id": "4",
+          "name": "Siddhakshetra Pavagadh",
+          "image": "https://example.com/pavagadh.jpg",
+          "address": "Shri Pavaghadh Digambar Jain Siddhakshetra Kothi, Pavaghadh Tehsil - Halol, District - Panchmahal (Gujarat) Pin - 389360",
+          "contact": {
+            "telephone": ["02676-245624", "02676-245723", "09925982861"]
+          },
+          "facilities": {
+            "accommodation": {
+              "rooms_with_bathroom": 23,
+              "rooms_without_bathroom": 24,
+              "halls": 1,
+              "passenger_capacity": 30,
+              "ac_rooms": 2,
+              "total_capacity": 500
+            },
+            "dining_room": "Regular, Paid",
+            "old_age_home": "Yes",
+            "dispensary": "No",
+            "library": "No",
+            "school": "No"
+          },
+          "transportation": {
+            "railway_station": {
+              "vadodara": "50 km",
+              "godhra": "48 km"
+            },
+            "bus_stand": "Pavagadh",
+            "easiest_way": "By bus from Vadodara and Godhra",
+            "nearest_major_city": {
+              "vadodara": "50 km",
+              "godhra": "48 km"
+            }
+          },
+          "management": {
+            "institution": "Shri Digambar Jain Siddhakshetra Kothi Pavagadh Committee",
+            "president": "Shri Maheshchandra Maganlal (09825959368)",
+            "minister": "Shri Shirish Kumar Shantilal Shah (09428304293)",
+            "manager": "Shri Jinendra Kumar Anokhilal Jain (09925982861)"
+          },
+          "importance": {
+            "temples_count": 10,
+            "mountains": "The area includes a mountain with 1500 steps. A ropeway is available for the 3 km distance.",
+            "historic_info": "A historic site with ancient forts and palaces in ruins. The foothills are recognized as Champaner village. Five Kotimuni attained salvation here, including Lava and Kusha.",
+            "special_information": "A ropeway (paid) provides access to the mountain from Manchi, a distance of 3 km. A Vaishnav temple dedicated to Maa Kali is located on the hilltop. A fair is held annually on Magh Sud 12 and 13."
+          },
+          "nearby_pilgrimage_sites": [
+            "Mahuva - 225 km",
+            "Paliitana - 325 km",
+            "Girnar Ji - 480 km",
+            "Tarangaji - 300 km",
+            "Gandhinagar - Akshardham - 200 km",
+            "Dakorji - Ranchhodray Mandir - 125 km",
+            "Agas, Koba, Bedia - 30 km",
+            "Omkar Tirth (Basla) - 40 km"
+          ],
+          "annual_fair": {
+            "name": "Magh Sudi Fair",
+            "dates": "12th and 13th of Magh Sudi"
+          }
+        }
+      ]
+    }
+  ]
+}

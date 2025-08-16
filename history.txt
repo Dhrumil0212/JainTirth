@@ -1,0 +1,50 @@
+jarsigner -verbose -sigalg SHA256withRSA -digestalg SHA-256 -keystore xample.jks bundle.aab keystoreAlias
+jarsigner -verbose -sigalg SHA256withRSA -digestalg SHA-256 \
+  -keystore my-release-key.jks \
+  your_app.aab your-key-alias
+jarsigner -verbose -sigalg SHA256withRSA -digestalg SHA-256  -keystore my-release-key.jks   your_app.aab your-key-alias
+cd build/
+dir
+cd ..
+cd app/build/
+dir
+cd outputs
+dir
+cd bundle
+jarsigner -verbose -sigalg SHA256withRSA -digestalg SHA-256  -keystore my-release-key.jks   your_app.aab your-key-alias
+keytool -genkeypair -v -keystore my-release-key.jks -keyalg RSA -keysize 2048 -validity 10000 -alias my-key-alias
+jarsigner -verbose -sigalg SHA256withRSA -digestalg SHA-256  -keystore my-release-key.jks   app_releasep.aab your-key-alias
+jarsigner -verbose -sigalg SHA256withRSA -digestalg SHA-256  -keystore my-release-key.jks   app_releasep.aab my-key-alias
+jarsigner -verbose -sigalg SHA256withRSA -digestalg SHA-256  -keystore my-release-key.jks   app_release.aab my-key-alias
+dir
+cd release
+jarsigner -verbose -sigalg SHA256withRSA -digestalg SHA-256  -keystore my-release-key.jks   app_release.aab my-key-alias
+dir
+jarsigner -verbose -sigalg SHA256withRSA -digestalg SHA-256  -keystore my-release-key.jks   app_release.aab my-key-alias
+keytool -genkeypair -v -keystore my-release-key.jks -keyalg RSA -keysize 2048 -validity 10000 -alias my-key-alias
+jarsigner -verbose -sigalg SHA256withRSA -digestalg SHA-256  -keystore my-release-key.jks   app_release.aab my-key-alias
+dir
+jarsigner -verbose -sigalg SHA256withRSA -digestalg SHA-256  -keystore my-release-key.jks   app-release.aab my-key-alias
+cd ../../..
+cd ../..
+gradlew bundleRelease
+keytool -genkeypair -v -keystore my-release-key.jks -keyalg RSA -keysize 2048 -validity 10000 -alias my-key-alias
+jarsigner -verbose -sigalg SHA256withRSA -digestalg SHA-256  -keystore my-release-key.jks   app_release.aab my-key-alias
+jarsigner -verbose -sigalg SHA256withRSA -digestalg SHA-256  -keystore my-release-key.jks   app-release.aab my-key-alias
+cd C:\Users\Dhrumil\VS Code\JainTirthDigdershika1\android\app\build\outputs\bundle\release
+jarsigner -verbose -sigalg SHA256withRSA -digestalg SHA-256  -keystore my-release-key.jks   app-release.aab my-key-alias
+dir
+keytool -genkeypair -v -keystore new-release-key.jks -keyalg RSA -keysize 2048 -validity 10000 -alias new-key-alias
+jarsigner -verbose -sigalg SHA256withRSA -digestalg SHA-256  -keystore new-release-key.jks   app-release.aab new-key-alias
+        eas submit --platform android
+eas credentials
+eas build --platform android
+expo doctor
+npx expo doctor
+npx expo-doctor
+expo doctor
+cd ../../../..
+cd ../..
+expo doctor
+npx expo-doctor
+doskey /HISTORY > history.txt

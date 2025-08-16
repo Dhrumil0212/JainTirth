@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "Acharya Shri Vidyasagar Jain Tirth Digdershika",
+    "slug": "digambarjaintirth",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "plugins": [
+      "expo-asset",
+      "expo-router",
+      "expo-web-browser"
+    ],
+    "icon": "C:\\Users\\Dhrumil\\VS Code\\JainTirthDigdershika1\\assets\\cropped-icon1.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/icon1.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "C:\\Users\\Dhrumil\\VS Code\\JainTirthDigdershika1\\assets\\cropped-icon1.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.dhrumil212.jaintirthdigdershika",
+      "versionCode": 1
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "8290d177-791b-469b-8adc-7b2fdd661e2b"
+      }
+    }
+  }
+}

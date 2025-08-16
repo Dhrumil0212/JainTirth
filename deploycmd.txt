@@ -1,0 +1,17 @@
+npx expo prebuild --clean
+cd android
+gradlew assembleRelease
+eas build --platform android --profile development
+cd ..
+npm outdated
+npx rimraf --glob **/node_modules
+npx expo install --fix
+npm i --fix
+eas build --platform android --profile development
+eas submit --platform android
+eas build -p android
+git add .
+git commit -m "Initial commit"
+git push 
+npm start
+doskey /history >  deploycmd.txt
